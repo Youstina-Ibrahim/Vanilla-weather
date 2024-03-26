@@ -35,7 +35,7 @@ function formatDate(date) {
       minutes = "0" + minutes;
     }
   
-    return (day + " " +hours + ":" + minutes);
+    return (day + " " + hours + ":" + minutes);
   }
 function searchCity(city) {
     let apiUrl ="https://api.shecodes.io/weather/v1/current?query=" + city + "&key=4bcbfca0e1o5tdbbcae5faa393683b0c&units=metric";
